@@ -1,0 +1,102 @@
+{
+  "configVersion": 1,
+  "timestamp": 1574328518201,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/3-es5.baca618ca99c3a6b1c50.js",
+        "/4-es2015.4a7f84924ca1fa9e93d4.js",
+        "/4-es5.6054853764108b729008.js",
+        "/5-es2015.68e3fa426d0058a5479a.js",
+        "/favicon.ico",
+        "/index.html",
+        "/main-es2015.4f03aedb06d2a49e157b.js",
+        "/main-es5.86b1830c20704c37edea.js",
+        "/polyfills-es2015.60da8dfaba73178a4fc1.js",
+        "/polyfills-es5.fea334ed302c584ed70b.js",
+        "/runtime-es2015.607cb94a224ffa1ae789.js",
+        "/runtime-es5.0498e1d3d8fd16272b5d.js",
+        "/styles.3ff695c00d717f2d2a11.css"
+      ],
+      "patterns": [
+        "https:\\/\\/maxcdn\\.bootstrapcdn\\.com\\/bootstrap\\/3\\.3\\.7\\/css\\/bootstrap\\.min\\.css"
+      ]
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "api",
+      "patterns": [
+        "https:\\/\\/nodejsapidemo\\.herokuapp\\.com\\/products\\/",
+        "https:\\/\\/nodejsapidemo\\.herokuapp\\.com\\/users\\/",
+        "https:\\/\\/nodejsapidemo\\.herokuapp\\.com\\/tasks\\/"
+      ],
+      "strategy": "freshness",
+      "maxSize": 5,
+      "maxAge": 21600000,
+      "timeoutMs": 10000,
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/3-es5.baca618ca99c3a6b1c50.js": "b682eb2af5ceda14bb1194c7bb15763d3f217b4c",
+    "/4-es2015.4a7f84924ca1fa9e93d4.js": "6a6db83bc29a90bacf52da527966e326ae681231",
+    "/4-es5.6054853764108b729008.js": "5a13bea93cfd372df1c528c96c17e65f4a9a7aa6",
+    "/5-es2015.68e3fa426d0058a5479a.js": "ade506f72a5307180eac079f23c9442a7abc3908",
+    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/index.html": "bf949b9f79d08d9bdc21d2a0fc4fc071c8e3bdce",
+    "/main-es2015.4f03aedb06d2a49e157b.js": "013eeeb5937eaffb8d9ac1189c6f303add89cb6b",
+    "/main-es5.86b1830c20704c37edea.js": "caf4fb500a5ed805a427cd7327da127b629a0861",
+    "/polyfills-es2015.60da8dfaba73178a4fc1.js": "058203dab4ba87056d6976029ba60fa42e6f75b9",
+    "/polyfills-es5.fea334ed302c584ed70b.js": "7e1b38fcb73a9607657630e25f278302170f96dc",
+    "/runtime-es2015.607cb94a224ffa1ae789.js": "89ea9f48f25a2acb8c43c4610ccba842bf550d63",
+    "/runtime-es5.0498e1d3d8fd16272b5d.js": "23eae13c497b1cbfdbacb552627c738a267f1419",
+    "/styles.3ff695c00d717f2d2a11.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
